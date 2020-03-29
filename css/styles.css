@@ -10,7 +10,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: 0px;
-    /* border: 0px solid white; */
 }
 
 header {
@@ -60,11 +59,11 @@ header .menu-item:hover {
 
 .nav {}
 
-.home-content {
+.main-content {
     width: 100%;
 }
 
-.banner {
+.banner-home {
 
     background-image: url('../img/banner.jpg');
     width: 100%;
@@ -81,14 +80,14 @@ header .menu-item:hover {
 
 }
 
-.banner p {
+.banner-home p {
     padding-top: 360px;
     margin: 0px;
     font-weight: lighter;
     font-size: 18px;
 }
 
-.banner h2 {
+.banner-home h2 {
     font-size: 36px;
     margin: 15px 0px 0px 0px;
 
@@ -120,7 +119,6 @@ header .menu-item:hover {
 }
 
 .product-box {
-    /* display: inline-block; */
     width: 31.33%;
     height: 250px;
     background-size: cover;
@@ -128,33 +126,40 @@ header .menu-item:hover {
     margin: 1% 1%;
     float: left;
     text-align: center;
-
 }
-#box1{
+
+#box1 {
     background-image: url('../img/product-1.png');
 }
-#box2{
+
+#box2 {
     background-image: url('../img/product-2.jpg');
 }
-#box3{
+
+#box3 {
     background-image: url('../img/product-3.jpg');
 }
-#box4{
+
+#box4 {
     background-image: url('../img/product-4.jpg');
 }
-#box5{
+
+#box5 {
     background-image: url('../img/product-5.jpg');
 }
-#box6{
+
+#box6 {
     background-image: url('../img/product-6.jpg');
 }
-#product-button{
+
+#product-button {
     text-align: center;
     margin-top: 190px;
     padding: 10px 30px;
     font-size: 18px;
 }
-footer{
+
+footer {
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -164,7 +169,145 @@ footer{
     text-align: center;
     margin: 0px;
 }
-footer h4{
+
+footer h4 {
     padding-top: 15px;
     margin: 0px;
+}
+
+.banner-about {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.banner-about h2 {
+    margin: 0px;
+    padding-top: 10%;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: white;
+}
+
+.video-about {
+    width: 10%;
+    float: left;
+    width: 35%;
+    object-fit: cover;
+}
+
+.about-description {
+    width: 60%;
+    float: right;
+}
+
+.about-description p {
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.about-description h3 {
+    font-size: 27px;
+    margin: 0px;
+}
+
+.about-content {
+    margin: 0px auto;
+    padding: 3%;
+    overflow: hidden;
+}
+
+.audio-content {
+    text-align: center;
+    height: 40vh;
+    background-color: #f1f3f4;
+    border-top: 1px solid #dcdcdc;
+
+}
+
+.audio-content p {
+    font-size: 21px;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+.contact-content{
+    width: 40%;
+    height: 75vh;
+    border: 1px solid #5f4a90;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    /* padding-top: 20%; */
+    text-align: center;
+    /* padding-top: 200px; */
+    background-color: rgba(255, 255, 255, 0.85);
+
+}
+.contact-content h2 {
+    margin: 0px;
+    font-size: 36px;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+#contact-main{
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    padding-top: 8%;
+}
+form{
+    /* border: 5px solid blue; */
+    /* box-sizing: border-box; */
+    display: inline-block;
+    text-align: left;
+    width: 85%;
+}
+form *{
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+form input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #5f4a90;
+    background-color: rgba(255, 255, 255, 0);
+}
+form textarea{
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    border: 1px solid #5f4a90;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+form label{
+    margin-top: 10px;
+}
+.form-button{
+    background-color: #5f4a90;
+    color: white;
+    padding: 7px 50px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 21px;
+    float: right;
+}
+.contact-send{
+    margin: 0px auto;
+    margin-top: 2%;
+    font-size: 18px;
+    width: 85%;
+    overflow: hidden;
+}
+#checkbox {
+    float: left;
+    /* padding: 10px; */
+    /* margin: auto; */
 }
